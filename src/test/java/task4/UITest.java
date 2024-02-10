@@ -1,17 +1,13 @@
 package task4;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.gb.task4.LoginPage;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class UITest extends AbstractTest {
     private WebDriver driver;
